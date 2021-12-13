@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Register form</title>
+    <link href="img/css/sign-style.css" type="text/css" rel="stylesheet" />
+</head>
+<style type="text/css">
+    body {
+        height: 550px;
+        margin: 0;
+        padding: 0;
+        background: url("./img/bg.jpg");
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+        color: white;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="apple">
+            <form method="POST" id="frmSignup">
+                <h2>REGISTER HERE</h2>
+                <p>Username</p>
+                <input type="text" name="Username" placeholder="name" required>
+                <p>Email</p>
+                <input type=Email name="Email" placeholder="mail" required>
+                <p>Mobile number</p>
+                <input type="text" name="Mobilenumber" placeholder="number" required maxlength="10">
+                <p>Password</p>
+                <input type="password" name="Password" placeholder="password" id="txtChangePassword" required>
+                <p>Confirm Password</p>
+                <input type="password" name="confirmPassword" placeholder="password" required>
+                <br>
+                <center><input type="submit" name="submit" value="Sign Up"></center>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
